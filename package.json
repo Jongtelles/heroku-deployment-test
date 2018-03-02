@@ -1,0 +1,29 @@
+{
+  "name": "heroku-deployment-test",
+  "version": "1.0.0",
+  "description": "testing deploying an app to heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jongtelles/heroku-deployment-test.git"
+  },
+  "keywords": [
+    "heroku",
+    "test"
+  ],
+  "author": "Jon G Telles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jongtelles/heroku-deployment-test/issues"
+  },
+  "homepage": "https://github.com/Jongtelles/heroku-deployment-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
